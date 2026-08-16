@@ -1,0 +1,32 @@
+{
+  "controller": "RLS(λ=0.95)",
+  "run_id": 2,
+  "start_time_iso": "2026-08-16T11:29:05",
+  "end_time_iso": "2026-08-16T11:29:08",
+  "duration_s": 3.01,
+  "n_steps": 20,
+  "csv_file": "RLSλ=0.95_run02.csv",
+  "metrics": {
+    "mae_yaw_deg": 8.542790968246567,
+    "rmse_yaw_deg": 8.768819593511537,
+    "max_yaw_deg": 9.91922395524099,
+    "steady_state_yaw_deg": 9.494697536051296,
+    "mean_compute_ms": 0.16351000012946315,
+    "max_compute_ms": 0.1982000030693598,
+    "n_steps": 20,
+    "path_deviation_cm": null,
+    "param_variance": 35.13890976594011
+  },
+  "config": {
+    "controller": "RLS(λ=0.95)",
+    "run_id": 2,
+    "duration": 3.0,
+    "speed": 30,
+    "dt": 0.15,
+    "gain": 0.9,
+    "n_features": 4,
+    "use_gyro": true,
+    "use_euler": true,
+    "use_accel": true
+  }
+}

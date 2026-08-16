@@ -1,0 +1,33 @@
+{
+  "controller": "LR-Offline",
+  "run_id": 0,
+  "start_time_iso": "2026-08-16T11:29:25",
+  "end_time_iso": "2026-08-16T11:29:33",
+  "duration_s": 8.12,
+  "n_steps": 54,
+  "csv_file": "LR-Offline_run00.csv",
+  "metrics": {
+    "mae_yaw_deg": 7.498729545851438,
+    "rmse_yaw_deg": 9.084580426700054,
+    "max_yaw_deg": 13.05516851418719,
+    "steady_state_yaw_deg": 12.51509290810478,
+    "mean_compute_ms": 0.07394814787807667,
+    "max_compute_ms": 0.08769999840296805,
+    "n_steps": 54,
+    "path_deviation_cm": null,
+    "recovery_time_s": null,
+    "peak_yaw_after_pert_deg": 13.05516851418719
+  },
+  "config": {
+    "controller": "LR-Offline",
+    "run_id": 0,
+    "duration": 8.0,
+    "speed": 30,
+    "dt": 0.15,
+    "gain": 0.9,
+    "n_features": 2,
+    "use_gyro": true,
+    "use_euler": false,
+    "use_accel": false
+  }
+}

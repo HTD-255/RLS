@@ -1,0 +1,33 @@
+{
+  "controller": "MPC-Lite",
+  "run_id": 0,
+  "start_time_iso": "2026-08-16T11:30:38",
+  "end_time_iso": "2026-08-16T11:30:46",
+  "duration_s": 8.12,
+  "n_steps": 54,
+  "csv_file": "MPC-Lite_run00.csv",
+  "metrics": {
+    "mae_yaw_deg": 9.409284978263356,
+    "rmse_yaw_deg": 10.114431067886217,
+    "max_yaw_deg": 13.069844937483758,
+    "steady_state_yaw_deg": 12.546818672461654,
+    "mean_compute_ms": 0.44161481451333706,
+    "max_compute_ms": 0.611600000411272,
+    "n_steps": 54,
+    "path_deviation_cm": null,
+    "recovery_time_s": null,
+    "peak_yaw_after_pert_deg": 13.069844937483758
+  },
+  "config": {
+    "controller": "MPC-Lite",
+    "run_id": 0,
+    "duration": 8.0,
+    "speed": 30,
+    "dt": 0.15,
+    "gain": 0.9,
+    "n_features": 3,
+    "use_gyro": true,
+    "use_euler": true,
+    "use_accel": false
+  }
+}

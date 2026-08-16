@@ -1,0 +1,33 @@
+{
+  "controller": "PID",
+  "run_id": 1,
+  "start_time_iso": "2026-08-16T11:29:57",
+  "end_time_iso": "2026-08-16T11:30:05",
+  "duration_s": 8.12,
+  "n_steps": 54,
+  "csv_file": "PID_run01.csv",
+  "metrics": {
+    "mae_yaw_deg": 6.865674634286046,
+    "rmse_yaw_deg": 7.134887868885209,
+    "max_yaw_deg": 8.913617474287083,
+    "steady_state_yaw_deg": 8.510390172274198,
+    "mean_compute_ms": 0.0741185186025514,
+    "max_compute_ms": 0.07989999721758068,
+    "n_steps": 54,
+    "path_deviation_cm": null,
+    "recovery_time_s": null,
+    "peak_yaw_after_pert_deg": 8.913617474287083
+  },
+  "config": {
+    "controller": "PID",
+    "run_id": 1,
+    "duration": 8.0,
+    "speed": 30,
+    "dt": 0.15,
+    "gain": 0.9,
+    "n_features": 2,
+    "use_gyro": true,
+    "use_euler": false,
+    "use_accel": false
+  }
+}

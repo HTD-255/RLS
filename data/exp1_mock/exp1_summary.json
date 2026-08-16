@@ -1,0 +1,37 @@
+{
+  "Open": {
+    "mae_yaw_mean": 1.2404674185494837,
+    "mae_yaw_std": 0.05751067994205118,
+    "rmse_yaw_mean": 1.2553925883867811,
+    "compute_ms_mean": 0.05538740779566407,
+    "n_runs": 5
+  },
+  "LR": {
+    "mae_yaw_mean": 4.684179781541786,
+    "mae_yaw_std": 0.3769278769990693,
+    "rmse_yaw_mean": 4.741223910583285,
+    "compute_ms_mean": 0.07578296310923718,
+    "n_runs": 5
+  },
+  "PID": {
+    "mae_yaw_mean": 3.8359006957304134,
+    "mae_yaw_std": 0.06868586724808608,
+    "rmse_yaw_mean": 3.8532434134048565,
+    "compute_ms_mean": 0.07361333323556378,
+    "n_runs": 5
+  },
+  "RLS": {
+    "mae_yaw_mean": 7.592432862857845,
+    "mae_yaw_std": 0.5226256480096363,
+    "rmse_yaw_mean": 7.687776737341947,
+    "compute_ms_mean": 0.14036814822315202,
+    "n_runs": 5
+  },
+  "MPC": {
+    "mae_yaw_mean": 5.125671344728444,
+    "mae_yaw_std": 0.49876975400819684,
+    "rmse_yaw_mean": 5.157075274518317,
+    "compute_ms_mean": 0.4564192590165745,
+    "n_runs": 5
+  }
+}

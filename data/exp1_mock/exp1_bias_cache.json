@@ -1,0 +1,102 @@
+{
+  "open": {
+    "trim_cmd": 0.15,
+    "source": "calibrated",
+    "saved_at": "2026-08-16T04:02:54.709109Z",
+    "context": {
+      "yaw_mode": "mixed",
+      "speed": 30,
+      "duration_s": 4.0,
+      "use_accel": false,
+      "configure_for_short_run": false
+    },
+    "bias_info": {
+      "trim_cmd": 0.15,
+      "gyro_center": 1.5340843637627652,
+      "sensitivity": -8.694733791091268,
+      "probe_delta": 0.08,
+      "auto_trim_locked": true,
+      "heading_ref": null
+    }
+  },
+  "lr": {
+    "trim_cmd": 0.15,
+    "source": "calibrated",
+    "saved_at": "2026-08-16T04:03:25.856980Z",
+    "context": {
+      "yaw_mode": "mixed",
+      "speed": 30,
+      "duration_s": 4.0,
+      "use_accel": false,
+      "configure_for_short_run": false
+    },
+    "bias_info": {
+      "trim_cmd": 0.15,
+      "gyro_center": 1.6267271768098683,
+      "sensitivity": -8.033010953505718,
+      "probe_delta": 0.08,
+      "auto_trim_locked": true,
+      "heading_ref": null
+    }
+  },
+  "pid": {
+    "trim_cmd": 0.15,
+    "source": "calibrated",
+    "saved_at": "2026-08-16T04:03:56.993254Z",
+    "context": {
+      "yaw_mode": "mixed",
+      "speed": 30,
+      "duration_s": 4.0,
+      "use_accel": false,
+      "configure_for_short_run": false
+    },
+    "bias_info": {
+      "trim_cmd": 0.15,
+      "gyro_center": 1.5268318100198754,
+      "sensitivity": -8.144484969457839,
+      "probe_delta": 0.08,
+      "auto_trim_locked": true,
+      "heading_ref": null
+    }
+  },
+  "rls": {
+    "trim_cmd": 0.15,
+    "source": "calibrated",
+    "saved_at": "2026-08-16T04:04:28.143804Z",
+    "context": {
+      "yaw_mode": "mixed",
+      "speed": 30,
+      "duration_s": 4.0,
+      "use_accel": false,
+      "configure_for_short_run": false
+    },
+    "bias_info": {
+      "trim_cmd": 0.15,
+      "gyro_center": 1.5362749965687295,
+      "sensitivity": -8.364273162208665,
+      "probe_delta": 0.08,
+      "auto_trim_locked": true,
+      "heading_ref": null
+    }
+  },
+  "mpc": {
+    "trim_cmd": 0.15,
+    "source": "calibrated",
+    "saved_at": "2026-08-16T04:05:02.305105Z",
+    "context": {
+      "yaw_mode": "mixed",
+      "speed": 30,
+      "duration_s": 4.0,
+      "use_accel": false,
+      "configure_for_short_run": false
+    },
+    "bias_info": {
+      "trim_cmd": 0.15,
+      "gyro_center": 1.4764048864661934,
+      "sensitivity": -7.7671508739219215,
+      "probe_delta": 0.08,
+      "auto_trim_locked": true,
+      "heading_ref": 209.27538139754648
+    }
+  }
+}
