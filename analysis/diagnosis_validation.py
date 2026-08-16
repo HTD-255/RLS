@@ -49,8 +49,6 @@ Usage
     python analysis/diagnosis_validation.py --samples-per-class 60
 """
 
-from __future__ import annotations
-
 import argparse
 import json
 import os
@@ -89,13 +87,13 @@ def _make_history(abs_gyro: np.ndarray, dt: float) -> List[Dict[str, Any]]:
     return history
 
 
-def _gen_bias(n: int, rng: np.random.Generator) -> np.ndarray:
+def _gen_bias(n: int, rng: Any) -> np.ndarray:
     mu = rng.uniform(0.3, 1.0)
     noise = rng.normal(0.0, 0.08, size=n)
     return np.clip(mu + noise, 0.0, None)
 
 
-def _gen_growing_drift(n: int, dt: float, rng: np.random.Generator) -> np.ndarray:
+def _gen_growing_drift(n: int, dt: float, rng: Any) -> np.ndarray:
     mu0 = rng.uniform(0.15, 0.35)
     slope = rng.uniform(0.05, 0.25)
     t = np.arange(n) * dt
@@ -103,7 +101,7 @@ def _gen_growing_drift(n: int, dt: float, rng: np.random.Generator) -> np.ndarra
     return np.clip(mu0 + slope * t + noise, 0.0, None)
 
 
-def _gen_ambiguous(n: int, dt: float, rng: np.random.Generator) -> np.ndarray:
+def _gen_ambiguous(n: int, dt: float, rng: Any) -> np.ndarray:
     mu0 = rng.uniform(0.2, 0.4)
     slope = rng.uniform(0.02, 0.045)
     t = np.arange(n) * dt
@@ -112,7 +110,7 @@ def _gen_ambiguous(n: int, dt: float, rng: np.random.Generator) -> np.ndarray:
 
 
 def generate_labeled_sample(label: str, duration: float, dt: float,
-                             rng: np.random.Generator) -> List[Dict[str, Any]]:
+                             rng: Any) -> List[Dict[str, Any]]:
     n = max(int(round(duration / dt)), 6)
     if label == "bias_gan_co_dinh":
         abs_gyro = _gen_bias(n, rng)
@@ -127,7 +125,7 @@ def generate_labeled_sample(label: str, duration: float, dt: float,
 
 def run_validation(samples_per_class: int, duration: float, dt: float,
                     seed: int = 0) -> Dict[str, Any]:
-    rng = np.random.default_rng(seed)
+    rng = np.random.RandomState(seed)
 
     y_true: List[str] = []
     y_pred: List[str] = []

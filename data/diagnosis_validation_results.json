@@ -1,0 +1,64 @@
+{
+  "n_samples_per_class": 60,
+  "n_total": 180,
+  "duration_s": 5.0,
+  "dt_s": 0.15,
+  "labels": [
+    "bias_gan_co_dinh",
+    "drift_tang_dan_ve_cuoi_doan",
+    "hon_hop_or_chua_ro",
+    "khong_du_du_lieu"
+  ],
+  "confusion_matrix": [
+    [
+      57,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      55,
+      5,
+      0
+    ],
+    [
+      3,
+      1,
+      56,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "accuracy": 0.9333333333333333,
+  "per_class": {
+    "bias_gan_co_dinh": {
+      "precision": 0.95,
+      "recall": 0.95,
+      "f1": 0.9500000000000001,
+      "support": 60
+    },
+    "drift_tang_dan_ve_cuoi_doan": {
+      "precision": 0.9821428571428571,
+      "recall": 0.9166666666666666,
+      "f1": 0.9482758620689654,
+      "support": 60
+    },
+    "hon_hop_or_chua_ro": {
+      "precision": 0.875,
+      "recall": 0.9333333333333333,
+      "f1": 0.9032258064516129,
+      "support": 60
+    }
+  },
+  "macro_avg": {
+    "precision": 0.9357142857142856,
+    "recall": 0.9333333333333332,
+    "f1": 0.9338338895068595
+  }
+}

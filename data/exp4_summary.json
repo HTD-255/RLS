@@ -1,0 +1,26 @@
+{
+  "Gyro-only": {
+    "n_features": 2,
+    "mae_yaw_mean": 0.023064705882352942,
+    "mae_yaw_std": 0.0033113467503476674,
+    "rmse_yaw_mean": 0.027119601018972723,
+    "convergence_time_mean": 0.6315961360931397,
+    "n_runs": 10
+  },
+  "Euler-only": {
+    "n_features": 2,
+    "mae_yaw_mean": 0.0,
+    "mae_yaw_std": 0.0,
+    "rmse_yaw_mean": 0.0,
+    "convergence_time_mean": 2.3919082403182985,
+    "n_runs": 10
+  },
+  "Full-IMU": {
+    "n_features": 4,
+    "mae_yaw_mean": 0.2572764705882353,
+    "mae_yaw_std": 0.010953410301446467,
+    "rmse_yaw_mean": 0.26804582122288717,
+    "convergence_time_mean": 2.6636324167251586,
+    "n_runs": 10
+  }
+}

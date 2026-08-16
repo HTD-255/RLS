@@ -1,0 +1,56 @@
+{
+  "\u03bb=0.90": {
+    "lambda": 0.9,
+    "mae_yaw_mean": 0.019776470588235295,
+    "mae_yaw_std": 0.004403623861569793,
+    "rmse_yaw_mean": 0.02845117595039026,
+    "convergence_time_mean": 0.7819689035415649,
+    "convergence_rate": 1.0,
+    "n_runs": 10
+  },
+  "\u03bb=0.92": {
+    "lambda": 0.92,
+    "mae_yaw_mean": 0.01915588235294118,
+    "mae_yaw_std": 0.004086183361483894,
+    "rmse_yaw_mean": 0.027732132401726818,
+    "convergence_time_mean": 0.6918836116790772,
+    "convergence_rate": 1.0,
+    "n_runs": 10
+  },
+  "\u03bb=0.95": {
+    "lambda": 0.95,
+    "mae_yaw_mean": 0.026326470588235295,
+    "mae_yaw_std": 0.004794955718880077,
+    "rmse_yaw_mean": 0.031185750422764134,
+    "convergence_time_mean": 0.7369943618774414,
+    "convergence_rate": 1.0,
+    "n_runs": 10
+  },
+  "\u03bb=0.97": {
+    "lambda": 0.97,
+    "mae_yaw_mean": 0.031014705882352937,
+    "mae_yaw_std": 0.004160870824810742,
+    "rmse_yaw_mean": 0.03559199136936422,
+    "convergence_time_mean": 0.9784963607788086,
+    "convergence_rate": 1.0,
+    "n_runs": 10
+  },
+  "\u03bb=0.99": {
+    "lambda": 0.99,
+    "mae_yaw_mean": 0.0394735294117647,
+    "mae_yaw_std": 0.002688642329848778,
+    "rmse_yaw_mean": 0.04394800498588004,
+    "convergence_time_mean": 0.3159511566162109,
+    "convergence_rate": 1.0,
+    "n_runs": 10
+  },
+  "\u03bb=1.00": {
+    "lambda": 1.0,
+    "mae_yaw_mean": 0.02891764705882353,
+    "mae_yaw_std": 0.007166251161475052,
+    "rmse_yaw_mean": 0.03347231536189052,
+    "convergence_time_mean": 0.572162413597107,
+    "convergence_rate": 1.0,
+    "n_runs": 10
+  }
+}

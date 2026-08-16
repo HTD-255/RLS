@@ -1,0 +1,34 @@
+{
+  "LR": {
+    "mae_yaw_mean": 0.04848922351233672,
+    "mae_yaw_std": 0.0327444028664136,
+    "peak_yaw_mean": 0.1339,
+    "recovery_time_mean": 0.7830662250518798,
+    "recovery_rate": 1.0,
+    "n_runs": 10
+  },
+  "PID": {
+    "mae_yaw_mean": 0.03348214804063861,
+    "mae_yaw_std": 0.003635959830385719,
+    "peak_yaw_mean": 0.06860000000000001,
+    "recovery_time_mean": 0.7842401981353759,
+    "recovery_rate": 1.0,
+    "n_runs": 10
+  },
+  "RLS": {
+    "mae_yaw_mean": 0.025900217706821476,
+    "mae_yaw_std": 0.0029291116121694808,
+    "peak_yaw_mean": 0.07579999999999999,
+    "recovery_time_mean": 0.7846368551254272,
+    "recovery_rate": 1.0,
+    "n_runs": 10
+  },
+  "MPC": {
+    "mae_yaw_mean": 0.14631923076923076,
+    "mae_yaw_std": 0.013482338874930475,
+    "peak_yaw_mean": 0.3346,
+    "recovery_time_mean": 0.7912407636642456,
+    "recovery_rate": 1.0,
+    "n_runs": 10
+  }
+}
